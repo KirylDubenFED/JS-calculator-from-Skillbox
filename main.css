@@ -1,17 +1,17 @@
 body {
-  background: url(https://images.unsplash.com/photo-1591033594798-33227a05780d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI4fHxjYWxjdWxhdG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60) no-repeat center center;
+  background     : url(https://images.unsplash.com/photo-1591033594798-33227a05780d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI4fHxjYWxjdWxhdG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60) no-repeat center center;
   background-size: 100%;
-  font-size       : 18px;
-  font-family     : 'Roboto', sans-serif;
+  font-size      : 18px;
+  font-family    : 'Roboto', sans-serif;
 }
 
 .title {
-  display: flex;
-  justify-content : center;
-  color: rgb(62, 48, 141);
-  font-family: 'Pacifico', cursive;
-  text-shadow: 0 0 10px rgb(0 26 255), 0 0 20px #fc02d2;
-  font-size: 3em;
+  display        : flex;
+  justify-content: center;
+  color          : rgb(62, 48, 141);
+  font-family    : 'Pacifico', cursive;
+  text-shadow    : 0 0 10px rgb(0 26 255), 0 0 20px #fc02d2;
+  font-size      : 3em;
 }
 
 .calculator {
@@ -25,20 +25,18 @@ body {
 }
 
 .calculator__panel {
-  height: 85px;
+  height    : 85px;
   text-align: right;
-  padding: 20px;
-  position: relative;
+  padding   : 20px;
+  position  : relative;
 }
 
-.calculator__panel__math-line {
-
-}
+.calculator__panel__math-line {}
 
 .calculator__panel__result {
-  position: absolute;
-  right: 20px;
-  bottom: 20px;
+  position : absolute;
+  right    : 20px;
+  bottom   : 20px;
   font-size: 34px;
 }
 
@@ -57,15 +55,15 @@ body {
   background-color: #1f2326;
   color           : #f8fcff;
   border          : 1px solid #2d3134;
-  cursor: pointer;
+  cursor          : pointer;
 }
 
 .calculator__button:hover {
-opacity: 0.9;
-background-color: crimson;
-color: rgb(201, 233, 21);
-border-radius: 15px;
-transition      : 0.5s;
+  opacity         : 0.9;
+  background-color: crimson;
+  color           : rgb(201, 233, 21);
+  border-radius   : 15px;
+  transition      : 0.5s;
 }
 
 .calculator__button-long {
@@ -82,4 +80,3 @@ transition      : 0.5s;
   background-color: #5f4ab6;
   border          : 1px solid #6256c0;
 }
-
