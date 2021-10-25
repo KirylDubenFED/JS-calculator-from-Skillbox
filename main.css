@@ -1,5 +1,5 @@
 body {
-  background: url(https://images.unsplash.com/photo-1619718082268-5a1b74988497?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTl8fGNhbGN1bGF0b3J8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60) no-repeat center center;
+  background: url(https://images.unsplash.com/photo-1591033594798-33227a05780d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI4fHxjYWxjdWxhdG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60) no-repeat center center;
   background-size: 100%;
   font-size       : 18px;
   font-family     : 'Roboto', sans-serif;
@@ -8,9 +8,9 @@ body {
 .title {
   display: flex;
   justify-content : center;
-  color: rgb(90, 64, 241);
+  color: rgb(62, 48, 141);
   font-family: 'Pacifico', cursive;
-  text-shadow: 0 0 2px rgb(0 26 255), 0 0 10px #ee14ca;
+  text-shadow: 0 0 10px rgb(0 26 255), 0 0 20px #fc02d2;
   font-size: 3em;
 }
 
