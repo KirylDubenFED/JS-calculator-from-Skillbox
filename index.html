@@ -2,44 +2,42 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./main.css">
-  <title>JS Calculator</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <script src="/script.js" defer></script>
+    <title>JS Calculator</title>
 </head>
 
 <body>
-
-  <h1 class="title">Calculator on JS or Skillbox</h1>
-  <div class="calculator">
-    <div class="calculator__panel">
-      <div class="calculator__panel__math-line">59*89</div>
-      <div class="calculator__panel__result">874.44111</div>
+    <h1 class="title">Calculator on JS or Skillbox</h1>
+    <div class="calculator">
+        <div class="calculator__panel">
+            <div id="calculator-panel-math-line" class="calculator__panel__math-line"></div>
+            <div id="calculator-panel-result" class="calculator__panel__result"></div>
+        </div>
+        <div id="calculator-buttons" class="calculator__buttons">
+            <div class="calculator__button calculator__button-long">C</div>
+            <div class="calculator__button">%</div>
+            <div class="calculator__button calculator__button-purple operator">/</div>
+            <div class="calculator__button number">7</div>
+            <div class="calculator__button number">8</div>
+            <div class="calculator__button number">9</div>
+            <div class="calculator__button calculator__button-purple operator">*</div>
+            <div class="calculator__button number">4</div>
+            <div class="calculator__button number">5</div>
+            <div class="calculator__button number">6</div>
+            <div class="calculator__button calculator__button-purple operator">-</div>
+            <div class="calculator__button number">1</div>
+            <div class="calculator__button number">2</div>
+            <div class="calculator__button number">3</div>
+            <div class="calculator__button calculator__button-purple operator">+</div>
+            <div class="calculator__button calculator__button-long number">0</div>
+            <div class="calculator__button">.</div>
+            <div class="calculator__button calculator__button-orange">=</div>
+        </div>
     </div>
-    <div class="calculator__buttons">
-      <div class="calculator__button calculator__button-long">C</div>
-      <div class="calculator__button">%</div>
-      <div class="calculator__button calculator__button-purple">/</div>
-      <div class="calculator__button">7</div>
-      <div class="calculator__button">8</div>
-      <div class="calculator__button">9</div>
-      <div class="calculator__button calculator__button-purple">*</div>
-      <div class="calculator__button">4</div>
-      <div class="calculator__button">5</div>
-      <div class="calculator__button">6</div>
-      <div class="calculator__button calculator__button-purple">-</div>
-      <div class="calculator__button">1</div>
-      <div class="calculator__button">2</div>
-      <div class="calculator__button">3</div>
-      <div class="calculator__button calculator__button-purple">+</div>
-      <div class="calculator__button calculator__button-long">0</div>
-      <div class="calculator__button">.</div>
-      <div class="calculator__button calculator__button-orange">=</div>
-    </div>
-  </div>
-
 </body>
 
 </html>

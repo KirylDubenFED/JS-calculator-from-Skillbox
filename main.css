@@ -17,7 +17,7 @@ body {
 .calculator {
   width           : 288px;
   height          : 434px;
-  background-color: #ffffff;
+  background-color: #888282;
   margin          : 50px auto;
   border          : 1px solid rgba(0, 0, 0, 0.05);
   border-radius   : 5px;
@@ -29,14 +29,17 @@ body {
   text-align: right;
   padding   : 20px;
   position  : relative;
+  color: rgb(221, 201, 24);
 }
 
 .calculator__panel__math-line {}
 
 .calculator__panel__result {
-  position : absolute;
-  right    : 20px;
-  bottom   : 20px;
+  position: absolute;
+  right: 20px;
+  left: 20px;
+  word-wrap: break-word;
+  bottom: 20px;
   font-size: 34px;
 }
 
@@ -60,8 +63,8 @@ body {
 
 .calculator__button:hover {
   opacity         : 0.9;
-  background-color: crimson;
-  color           : rgb(201, 233, 21);
+  background-color: #FFFFFF;
+  color           : rgb(0, 0, 0);
   border-radius   : 15px;
   transition      : 0.5s;
 }
