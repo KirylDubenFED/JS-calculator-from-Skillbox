@@ -43,7 +43,7 @@ calculatorButtons.addEventListener("click", function (e) {
         } else if (operator === "+") {
             calculatorResult.textContent = firstNumber + secondNumber;
         } else if (operator === "%") {
-            calculatorResult.textContent = firstNumber * 0.01;
+            calculatorResult.textContent = firstNumber / 100 * secondNumber;
         }
 
         resetVars();

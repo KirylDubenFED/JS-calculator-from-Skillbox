@@ -11,7 +11,7 @@ body {
   color          : rgb(62, 48, 141);
   font-family    : 'Pacifico', cursive;
   text-shadow    : 0 0 10px rgb(0 26 255), 0 0 20px #fc02d2;
-  font-size      : 3em;
+  font-size      : 80px;
 }
 
 .calculator {
@@ -29,17 +29,15 @@ body {
   text-align: right;
   padding   : 20px;
   position  : relative;
-  color: rgb(221, 201, 24);
+  color     : rgb(221, 201, 24);
 }
 
-.calculator__panel__math-line {}
-
 .calculator__panel__result {
-  position: absolute;
-  right: 20px;
-  left: 20px;
+  position : absolute;
+  right    : 20px;
+  left     : 20px;
   word-wrap: break-word;
-  bottom: 20px;
+  bottom   : 20px;
   font-size: 34px;
 }
 
